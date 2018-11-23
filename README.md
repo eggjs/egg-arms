@@ -43,11 +43,12 @@ exports.arms = {
 ## Configuration
 
 ```js
-// {app_root}/config/config.default.js
+// {app_root}/config/config.default.js 支持多实例
 exports.arms = {
-   accessKeyId: 'xxxx',
-   secretAccessKey: 'xxxxxxx',
-   endpoint: 'cn-hangzhou',
+   client:{
+     accessKeyId: 'xxxx',
+     secretAccessKey: 'xxxxxxx',
+   }
 };
 ```
 
